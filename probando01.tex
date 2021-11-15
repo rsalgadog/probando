@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage[subfolder, cleanup]{gnuplottex}
+\usepackage{xcolor}
+\definecolor{tbcol}{rgb}{1,1,1}
+\usepackage{Sweave}
+\begin{document}
+\input{probando01-concordance}
+
+Hola mundo
+
+\begin{gnuplot}[terminal=cairolatex]
+plot x
+
+\end{gnuplot}
+
+\end{document}

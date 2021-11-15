@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage[subfolder, cleanup]{gnuplottex}
+\usepackage{xcolor}
+\definecolor{tbcol}{rgb}{1,1,1}
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+Hola mundo
+
+\begin{gnuplot}[terminal=cairolatex]
+plot x
+
+\end{gnuplot}
+
+\end{document}
